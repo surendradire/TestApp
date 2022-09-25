@@ -1,0 +1,53 @@
+
+Automatio Fundamental:
+
+A) Create object of Webdriver
+B) Find the element in the browser using WebElement/object attributes [ Developers tool --> Inspect]
+c) Perofrm operation [ like click, get text, set text, select value from dropdown etc ]
+
+
+
+*********************************** A) Setup *********************************************
+1) Create .net project
+2) Create unit test project
+	a) add dependancies (nuget packages)
+		1) Selenium.webdriver
+		2) Selenium support
+		3) WebDriverManager
+
+********************************** B) Automation Framework ****************************
+
+1) Project folder structure:
+   =======================
+
+2) Data Managment:
+   ==============
+Store test data out of the scripts (excel,csv,json,xml,DB etc)
+Write reuable methods to read/write data to enter in the application
+
+excel handling nuget packages : 
+
+Note: data is not hard-coded into scripts 
+
+
+3) Report:
+   =======
+3rd party plugin (nuget packages)
+	1) Extent report
+	2) Nunit Report
+
+
+********************************* C) Basics *******************************************
+https://www.toolsqa.com/selenium-c-sharp/
+https://www.automatetheplanet.com/selenium-webdriver-csharp-cheat-sheet/
+
+1) IWebElements, IWebElement, By, WebDriver Interface, WebDriverManager, ChromeDriver
+2) Page synchronization
+3) Screeshot
+4) Webdriver architecture
+5) Locatios [className, cssSelector, id, linkText, name, partialLinkText, taName, and xpath, java script too] --> https://toolsqa.com/selenium-webdriver/selenium-locators/
+6) Webdriver inbuilt methods
+	1) driver.Url, driver.Title, driver.PageSource, driver.Quit(), Driver.Close(),driver.Navigate().Back(), driver.Navigate().GoToUrl()
+7) Package org.openqa.selenium.support : [pagefactory,FindBy etc - POM -Page object model]
+	https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/package-summary.html
+	
