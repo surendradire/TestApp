@@ -1,4 +1,16 @@
 
+Test Framework
+	1) mstest
+	2) nunit  [Preffered]
+	3) xUnit
+
+
+
+
+C:\Users\surendra\.nuget\packages\nunit.consolerunner\3.14.0\tools>nunit3-console.exe X:\SKY\DevOps\udemy\Alan\Automation\MyApp\Test\bin\Debug\Test.dll
+
+
+
 Automatio Fundamental:
 
 A) Create object of Webdriver
